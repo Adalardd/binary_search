@@ -10,8 +10,8 @@ def binary_search(list, item):
         if guess == item: # значение найдено
             return mid
         elif guess > item: # много
-            high = mid - 1 # мало
-        else:
+            high = mid - 1
+        else: # мало
             low = mid + 1
     return None # значение не найдено
 
